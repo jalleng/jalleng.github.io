@@ -1,0 +1,129 @@
+/** {
+    border: 2px dashed orange;
+}*/
+body {
+    max-width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+}
+
+header {
+  margin: auto;
+  width: 100%;
+}
+#flextest {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    max-width: 100%;
+    background-color: #848484;
+    /*outline: 1px dashed orange;*/
+
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.social {
+    /*outline: 2px dashed orange;*/
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.icon-mail {
+    color: white;
+    /*background-color: #848484;*/
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.icon-github {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.icon-twitter {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.left {
+    justify-content: flex-start;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: Geometr231 Lt BT;
+    font-size: 50px;
+    color: #000000;
+    background-color: #ffffff;
+
+    /*background: url("../img/blue-drops2.png");*/
+    /*outline: 1px dashed orange;*/
+
+}
+#jalleng {
+
+}
+
+.about {
+    width: 100%;
+}
+
+.mugShot {
+    /*display: block;
+    margin: 0 auto;
+    width: 30%;*/
+    width: 97%;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 5px solid black;
+    margin-top: 35px;
+
+}
+.navTab {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.summary {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.dropDownTab {
+    background-color: #848484;
+    text-align: center;
+    color: white;
+}
+.projectLink {
+    color: black;
+}
+.topButton {
+    background-color: #848484;
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: #848484;
+    text-align: center;
+    color: white;
+    height: 40px;
+    max-width: 100%;
+}
