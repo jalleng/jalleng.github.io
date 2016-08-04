@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1100px) {
+  .no-show {
+    display: none;
+  }
+  .break {
+    display: inline;
+  }
+  #banner {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    position: ;
+    background: url("../img/blue-drops2.png");
+    outline: 2px dashed orange;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .projects figure {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home {
+    height: 150px;
+  }
+  .column-1, .column-2 {
+    width: 100%;
+    margin: 0px;
+  }
+  .column-2 {
+    margin-top: 40px;
+  }
+  .about figure {
+    width: 50%;
+  }
+  .content {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  #banner {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff ;
+    background: url("../img/blue-drops2.png");
+    outline: 1px dashed orange;
+  }
+  /*#jalleng {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    outline: 2px dashed orange;
+  }*/
+}
