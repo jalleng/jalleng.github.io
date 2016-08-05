@@ -1,10 +1,8 @@
 
 @import '../vendor/styles/normalize.css';
-@import 'layout.css';
-/*@import 'media-styles.css';*/
 @import 'icon.css';
+@import 'base.css';
+@import 'layout.css';
+@import 'modules.css';
 
 
-/*@import '../vendor/styles/html5reset.css';
-@import '../vendor/styles/base.css';
-*/
