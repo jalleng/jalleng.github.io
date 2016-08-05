@@ -101,6 +101,9 @@ header {
     background-color: #848484;
     text-align: center;
     color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 15px 10px -6px #555; 
 }
 .projectLink {
     color: black;
